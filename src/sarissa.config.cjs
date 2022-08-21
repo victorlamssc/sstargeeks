@@ -1,15 +1,15 @@
 export default {
-  siteTitle: "Sarissa Blog",
-  siteDescription: "Responsive Blog Template",
+  siteTitle: "Shooting Star Geeks",
+  siteDescription: "Geeking out to the stars!",
   favicon: "/favicon.ico",
-  siteImagePath: "/images/sarissa.png",
-  footer: "© 1967 - 2022 Sarissa Blog",
+  siteImagePath: "/images/SSGLogo.png",
+  footer: "© 2021 Shooting Star Comapny, LLC.",
   dateFormat: "dd.MM.yyyy HH:mm",
   socialMedia: {
-    facebook: "ozcelikismail",
-    twitter: "ismailozcelik",
-    linkedin: "ismail-özçelik",
-    github: "iozcelik",
+    reddit: "shootingstargeeks",
+    twitter: "sstargeeks",
+    linkedin: "victor-lam-3769524",
+    github: "victorlamssc",
   },
   pageSize: 5,
   categories: [

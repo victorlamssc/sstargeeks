@@ -2,21 +2,9 @@
 import Config from "../sarissa.config.cjs";
 ---
 <div class="flex gap-1 justify-center pt-4">
-  {Config.socialMedia.facebook &&
-  <a class="btn btn-sm btn-ghost btn-square" href={`https://www.facebook.com/${Config.socialMedia.facebook}`}>
-    <svg
-      class="inline-block w-4 h-4 fill-current"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path
-        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-      ></path>
-    </svg>
+  {Config.socialMedia.reddit &&
+  <a class="btn btn-sm btn-ghost btn-square" href={`https://www.reddit.com/user/${Config.socialMedia.reddit}`}>
+    <svg class="inline-block w-4 h-4 fill-current" viewBox="0 0 24 24"><path fill="currentColor" d="M10.75 13.04c0-.57-.47-1.04-1.04-1.04c-.57 0-1.04.47-1.04 1.04a1.04 1.04 0 1 0 2.08 0zm3.34 2.37c-.45.45-1.41.61-2.09.61s-1.64-.16-2.09-.61a.26.26 0 0 0-.38 0a.26.26 0 0 0 0 .38c.71.71 2.07.77 2.47.77c.4 0 1.76-.06 2.47-.77a.26.26 0 0 0 0-.38c-.1-.1-.27-.1-.38 0zm.2-3.41c-.57 0-1.04.47-1.04 1.04c0 .57.47 1.04 1.04 1.04s1.04-.47 1.04-1.04c0-.57-.46-1.04-1.04-1.04z"/><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm5.8 11.33c.02.14.03.29.03.44c0 2.24-2.61 4.06-5.83 4.06s-5.83-1.82-5.83-4.06c0-.15.01-.3.03-.44c-.51-.23-.86-.74-.86-1.33a1.455 1.455 0 0 1 2.47-1.05c1.01-.73 2.41-1.19 3.96-1.24l.74-3.49c.01-.07.05-.13.11-.16c.06-.04.13-.05.2-.04l2.42.52a1.04 1.04 0 1 1 .93 1.5c-.56 0-1.01-.44-1.04-.99l-2.17-.46l-.66 3.12c1.53.05 2.9.52 3.9 1.24a1.455 1.455 0 1 1 1.6 2.38z"/></svg>
   </a>}
   {Config.socialMedia.twitter &&
   <a class="btn btn-sm btn-ghost btn-square" href={`https://twitter.com/${Config.socialMedia.twitter}`}>

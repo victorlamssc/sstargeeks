@@ -23,6 +23,7 @@ Sarissa Blog theme created to serve markdown-based personel blog needs.
 - **Fuzzy Search:** [Fuse.js](https://fusejs.io/)
 - **Date & Time:** [Luxon](https://moment.github.io/luxon/#/)
 - **Theme Changer:** [Theme change](https://github.com/saadeghi/theme-change)
+- **Feather Icons:** [Feather Icons](https://package.elm-lang.org/packages/1602/elm-feather/2.3.0/FeatherIcons)
 
 ## Site Configuration
 
